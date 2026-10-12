@@ -1,8 +1,32 @@
+//import Foundation
 //
-//  Fish.swift
-//  W4
+//class Fish: Identifiable {
+//    // Properties (private)
+//    private var id: Int
+//    private var name: String
+//    private var color: String
+//    private var price: Double
 //
-//  Created by MAY 03 on 12/10/26.
+//    // Constructor
+//    init(id: Int, name: String, color: String, price: Double) {
+//        self.id = id
+//        self.name = name
+//        self.color = color
+//        self.price = price
+//    }
 //
-
-import Foundation
+//    // Getters
+//    func getId() -> Int { return id }
+//    func getName() -> String { return name }
+//    func getColor() -> String { return color }
+//    func getPrice() -> Double { return price }
+//
+//    func getInfo() -> String {
+//        return "[\(id)] \(name) - \(color) - $\(price)"
+//    }
+//
+//    // Setter
+//    func setName(_ newName: String) {
+//        self.name = newName
+//    }
+//}
